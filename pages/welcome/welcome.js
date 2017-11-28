@@ -1,4 +1,12 @@
 Page({
+  onTapJump: function (event) {
+    wx.switchTab({
+      url: '../post/post',
+      success: function () {
+        console.log('jump success');
+      }
+    })
+  },
 
   /**
    * 页面的初始数据
@@ -32,14 +40,14 @@ Page({
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    
+    console.log('unload')
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-    
+    console.log('unload')
   },
 
   /**
