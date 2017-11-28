@@ -8,6 +8,7 @@
       <image class="post-image" src="{{postImg}}" mode='aspectFill' />
       <text class="post-content">{{content}}</text>
       <view class="post-like">
+        <!-- tpl文件使用绝对路径，有利于之后复用 -->
         <image src="/images/icon/wx_app_collect.png" />
         <text>{{collectionNum}}</text>
         <image src="/images/icon/wx_app_view.png"></image>
