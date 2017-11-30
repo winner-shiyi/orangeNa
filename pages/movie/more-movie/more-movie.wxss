@@ -1,2 +1,7 @@
 /* pages/movie/more-movie/more-movie.wxss */
 @import "../movie-grid/movie-grid-tpl.wxss";
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,14 +1,16 @@
 {
   "pages":[
-    "pages/movie/more-movie/more-movie",
+    
     "pages/welcome/welcome",
     "pages/post/post",
-    "pages/movie/movie"
+    "pages/movie/movie",
+    "pages/movie/more-movie/more-movie"
     
     
   ],
   "window":{
-    "navigationBarBackgroundColor": "#4A6141"
+    "navigationBarBackgroundColor": "#4A6141",
+    "backgroundColor": "#4A6141"
   },
   "tabBar": {
     "borderStyle": "white",

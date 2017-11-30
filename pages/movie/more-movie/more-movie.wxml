@@ -1,3 +1,8 @@
 <!--pages/movie/more-movie/more-movie.wxml-->
 <import src="../movie-grid/movie-grid-tpl.wxml" />
-<template is="movieGridTpl" data="{{movies}}" />
+<view class="more-movie-container">
+  <template is="movieGridTpl" data="{{movies}}" />
+</view>
+<view class="loading" hidden="{{!movieLoading}}">正在载入更多...</view>
+<view class="loading complete" hidden="{{!moiveLoadingComplete}}">已加载全部</view>
+

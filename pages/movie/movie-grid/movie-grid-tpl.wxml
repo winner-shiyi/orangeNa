@@ -1,4 +1,5 @@
 <import src="../single-movie/movie-tpl.wxml" />
+
 <template name="movieGridTpl">
   <view class="grid-container">
     <block wx:for="{{movies}}" wx:for-item="movie" wx:key="movieId">
