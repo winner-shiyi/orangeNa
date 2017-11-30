@@ -10,12 +10,16 @@
 }
 .movie-head {
   padding: 30rpx 20rpx 22rpx;
+  /* display: flex; 如果这里设置flex后，里面的more-text 和 more-img的veritcal-align属性不生效
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; */
 }
 .slogan {
   font-size: 24rpx;
 }
 .more {
-  float: right;
+   float: right; 
 }
 .more-text {
   margin-right: 10rpx;
